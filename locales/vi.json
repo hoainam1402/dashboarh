@@ -1,0 +1,153 @@
+{
+  "common": {
+    "model": {
+      "id": "#",
+      "username": "Tài khoản",
+      "password": "Mật khẩu",
+      "email": "Email",
+      "phone": "Phone",
+      "createdAt": "Tạo lúc",
+      "updatedAt": "Sửa lúc"
+    },
+    "action": {
+      "view": "Xem",
+      "create": "Thêm",
+      "update": "Sửa",
+      "delete": "Xóa",
+      "cancel": "Hủy",
+      "close": "Đóng",
+      "reset": "Đặt lại",
+      "send": "Gửi",
+      "apply": "Áp dụng"
+    },
+    "notice": {
+      "success": "Thành công",
+      "failed": "Thất bại"
+    },
+    "message": {
+      "confirmDeleteTitle": "Xác nhận xóa"
+    }
+  },
+  "menu": {
+    "profile": "Thông tin",
+    "changePassword": "Đổi mật khẩu",
+    "logout": "Đăng xuất",
+    "dashboard": "Trang chủ",
+    "admin": "Quản trị",
+    "users": "Tài khoản",
+    "setting": "Cài đặt"
+  },
+  "footer": {
+    "poweredBy": "Powered by"
+  },
+  "login": {
+    "title": "Đăng nhập vào hệ thống",
+    "username": "Tài khoản",
+    "password": "Mật khẩu",
+    "button": "Đăng nhập"
+  },
+  "changePassword": {
+    "model": {
+      "password": "Mật khẩu cũ",
+      "newPassword": "Mật khẩu mới",
+      "newPasswordConfirmation": "Nhập lại mật khẩu"
+    }
+  },
+  "vuetify": {
+    "badge": "Huy hiệu",
+    "close": "Đóng",
+    "dataIterator": {
+      "noResultsText": "Không tìm thấy kết quả nào",
+      "loadingText": "Đang tải..."
+    },
+    "dataTable": {
+      "itemsPerPageText": "Số hàng mỗi trang:",
+      "ariaLabel": {
+        "sortDescending": "Sắp xếp giảm dần.",
+        "sortAscending": "Sắp xếp tăng dần.",
+        "sortNone": "Không sắp xếp.",
+        "activateNone": "Kích hoạt để bỏ sắp xếp.",
+        "activateDescending": "Kích hoạt để sắp xếp giảm dần.",
+        "activateAscending": "Kích hoạt để sắp xếp tăng dần."
+      },
+      "sortBy": "Sắp xếp"
+    },
+    "dataFooter": {
+      "itemsPerPageText": "Số mục mỗi trang:",
+      "itemsPerPageAll": "Toàn bộ",
+      "nextPage": "Trang tiếp theo",
+      "prevPage": "Trang trước",
+      "firstPage": "Trang đầu",
+      "lastPage": "Trang cuối",
+      "pageText": "{0}-{1} trên {2}"
+    },
+    "datePicker": {
+      "itemsSelected": "{0} được chọn",
+      "nextMonthAriaLabel": "Tháng sau",
+      "nextYearAriaLabel": "Năm sau",
+      "prevMonthAriaLabel": "Tháng trước",
+      "prevYearAriaLabel": "Năm trước"
+    },
+    "noDataText": "Không có dữ liệu",
+    "carousel": {
+      "prev": "Ảnh tiếp theo",
+      "next": "Ảnh trước",
+      "ariaLabel": {
+        "delimiter": "Carousel slide {0} trên {1}"
+      }
+    },
+    "calendar": {
+      "moreEvents": "{0} nữa"
+    },
+    "fileInput": {
+      "counter": "{0} tệp",
+      "counterSize": "{0} tệp (tổng cộng {1})"
+    },
+    "timePicker": {
+      "am": "SA",
+      "pm": "CH"
+    },
+    "pagination": {
+      "ariaLabel": {
+        "wrapper": "Điều hướng phân trang",
+        "next": "Trang tiếp theo",
+        "previous": "Trang trước",
+        "page": "Đến trang {0}",
+        "currentPage": "Trang hiện tại, Trang {0}"
+      }
+    },
+    "rating": {
+      "ariaLabel": {
+        "icon": "Đánh giá {0} trên {1}"
+      }
+    }
+  },
+  "validations": {
+    "alpha": "{_field_} chỉ có thể chứa các kí tự chữ",
+    "alpha_num": "{_field_} chỉ có thể chứa các kí tự chữ và số",
+    "alpha_dash": "{_field_} có thể chứa các kí tự chữ (A-Z a-z), số (0-9), gạch ngang (-) và gạch dưới (_)",
+    "alpha_spaces": "{_field_} chỉ có thế chứa các kí tự và khoảng trắng",
+    "between": "{_field_} phải có giá trị nằm trong khoảng giữa {min} và {max}",
+    "confirmed": "{_field_} khác với {target}",
+    "digits": "{_field_} chỉ có thể chứa các kí tự số và bắt buộc phải có độ dài là {length}",
+    "dimensions": "{_field_} phải có chiều rộng {width} pixels và chiều cao {height} pixels",
+    "email": "{_field_} phải là một địa chỉ email hợp lệ",
+    "excluded": "{_field_} không phải là một giá trị hợp lệ",
+    "ext": "{_field_} phải là một tệp",
+    "image": "{_field_} phải là một ảnh",
+    "integer": "{_field_} phải là một số",
+    "length": "{_field_} phải dài {length}",
+    "max_value": "{_field_} phải nhỏ hơn hoặc bằng {max}",
+    "max": "{_field_} không thể có nhiều hơn {length} kí tự",
+    "mimes": "{_field_} phải chứa kiểu tệp phù hợp",
+    "min_value": "{_field_} phải lớn hơn hoặc bằng {min}",
+    "min": "{_field_} phải chứa ít nhất {length} kí tự",
+    "numeric": "{_field_} chỉ có thể có các kí tự số",
+    "oneOf": "{_field_} không phải là một giá trị hợp lệ",
+    "regex": "{_field_} có định dạng không đúng",
+    "required_if": "{_field_} là bắt buộc",
+    "required": "{_field_} là bắt buộc",
+    "size": "{_field_} chỉ có thể chứa tệp nhỏ hơn {size}KB",
+    "double": "{_field_} phải là một số thập phân hợp lệ"
+  }
+}
